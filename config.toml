@@ -1,5 +1,5 @@
-baseurl = "http://www.example.com"
-title = "Yusuke Ishimi"
+baseurl = "https://hackingagainstcovid19.netlify.com/"
+title = "ITP Covid 19 Hackathon"
 
 theme = "coder-portfolio"
 
@@ -16,9 +16,9 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Yusuke Ishimi"
-    description = "Yusuke Ishimi's personal website"
+    description = "ITP Covid 19 Hackathon"
     keywords = "blog,developer,personal"
-    info = "WEB AND APPS ENGINEER"
+    info = "ITP Covid 19 Hackathon"
     avatarurl = "images/avatar.jpg"
     footercontent = "Enter a text here."
     fixedbarContent = "Do you want to know me more private?→"
