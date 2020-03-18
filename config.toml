@@ -1,5 +1,5 @@
-baseurl = "https://hackingagainstcovid19.netlify.com/"
-title = "ITP Hacking Against Covid-19 "
+baseurl = "http://www.example.com"
+title = "Yusuke Ishimi"
 
 theme = "coder-portfolio"
 
