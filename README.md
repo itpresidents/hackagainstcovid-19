@@ -8,6 +8,14 @@ Install hugo
 
     brew install hugo
 
+Clone this repository recursive - to make sure you include the themes.
+
+    git clone git@github.com:oveddan/hackagainstcovid19.git --recursive
+
+Cd into the repo:
+
+    cd hackagainstcovid19
+
 Start the server:
 
     hugo server -D
