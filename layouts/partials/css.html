@@ -1,0 +1,5 @@
+{{ $theme:= resources.Get "css/theme/style.scss" | resources.ToCSS }}
+
+{{ $minifiedcss := $theme | minify | fingerprint}}
+
+<link href="{{ $minifiedcss.Permalink }}" rel="stylesheet">

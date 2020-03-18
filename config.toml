@@ -79,7 +79,7 @@ disqusShortname = "yourdiscussshortname"
             [[languages.en.menu.main]]
                 name = "Schedule"
                 weight = 2.0
-                url = "posts"
+                url = "schedule"
 
             [[languages.en.menu.main]]
                 name = "Example Projects"
