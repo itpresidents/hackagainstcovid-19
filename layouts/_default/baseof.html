@@ -50,7 +50,7 @@
     {{ hugo.Generator }}
   </head>
 
-  <body class="{{ if .Site.Params.rtl }}rtl{{ end }}">
+  <body class="{{ .Page.File.TranslationBaseName }}">
     <main class="wrapper">
       {{ partial "header.html" . }}
 
