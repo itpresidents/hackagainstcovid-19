@@ -7,7 +7,7 @@
     <ul class="home-list">
       {{ range sort . "weight"}}
         <li class="home-item">
-          <a href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}>
+          <a href="{{ .url }}" target="_blank" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}>
             {{ if .icon }}
               <i class="{{ .icon }}" aria-hidden="true"></i>
             {{ else }}
