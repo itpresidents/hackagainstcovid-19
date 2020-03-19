@@ -82,6 +82,10 @@ pygmentsUseClasses = true
                 weight = 2.0
                 url = "schedule"
             [[languages.en.menu.main]]
+                name = "Inspiration"
+                weight = 3
+                url = "inspiration"
+            [[languages.en.menu.main]]
                 name = "Participate"
                 weight = 3
                 url = "contact"
