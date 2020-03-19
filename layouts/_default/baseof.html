@@ -15,7 +15,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:image" content="{{ "/images/HackAgainstCovid-19.png" | absURL }}">
-    
+
     <meta property="og:image" content="{{ if .IsPage }}{{ .Site.BaseURL }}{{ .Params.thumbnail }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.thumbnail }}{{ end }}">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="{{ .Permalink }}">
@@ -58,8 +58,6 @@
         {{ block "content" . }}{{ end }}
       </div>
           </main>
-
-    {{ template "_internal/google_analytics.html" . }}
 
   <script src="{{ "js/app.js" | absURL }}"></script>
   {{ with .Site.Params.fixedbarContentAfter }}

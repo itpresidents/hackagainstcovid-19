@@ -12,18 +12,15 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 pygmentsUseClasses = true
 
-disqusShortname = "yourdiscussshortname"
-
 [params]
-    author = "ITP"
+    author = "ITP Residents"
     home_main = "Hey ITP + IMA: let's do something about it."
     description = "Hack Against Covid-19"
-    keywords = "blog,developer,personal"
-    info = "Hack Against Covid-19"
+    keywords = "hackathon,developer,covid-19,pandemic"
+    info = "A 3-Day ITP & IMA Hackathon"
     avatarurl = "images/cv19-small.jpeg"
-    footercontent = "Enter a text here."
-    fixedbarContent = "Do you want to know me more private?→"
-    fixedbarContentAfter = "Thank You! Please share it if you like it→"
+    fixedbarContent = "Register to participate!→"
+    fixedbarContentAfter = "Thank You!"
 
     hideCredits = false
     hideCopyright = false
@@ -55,13 +52,13 @@ disqusShortname = "yourdiscussshortname"
     name = "Participate"
     background = "primary"
     weight = 2
-    url = "https://twitter.com/naro143/"
+    url = "https://forms.gle/xNsZHzBpLBWqM32G8"
 
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 2
-    url = "https://twitter.com/naro143/"
+    url = "https://twitter.com/itp_nyu"
 
 [languages]
     [languages.en]
@@ -72,26 +69,19 @@ disqusShortname = "yourdiscussshortname"
         # You can configure the theme parameter for each language.
         [languages.en.params]
             author = "Hack Against Covid-19"
-            info = "@ ITP"
+            info = "A 3-Day ITP & IMA Hackathon"
             description = "Hack Against Covid-19"
             keywords = "blog,developer,personal"
 
         [languages.en.menu] # It is possible to change the menu too.
-
             [[languages.en.menu.main]]
                 name = "About"
                 weight = 1.0
                 url = "about"
-
             [[languages.en.menu.main]]
                 name = "Schedule"
                 weight = 2.0
                 url = "schedule"
-
-            [[languages.en.menu.main]]
-                name = "Inspiration"
-                weight = 3
-                url = "projects"
             [[languages.en.menu.main]]
                 name = "Participate"
                 weight = 3
