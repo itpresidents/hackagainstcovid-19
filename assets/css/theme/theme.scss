@@ -1,5 +1,7 @@
 @import "colors.scss";
 
+$link-padding: 0.3em 1em;
+
 *,
 *:after,
 *:before {
@@ -205,7 +207,7 @@ img {
       a {
         margin-left: 1.0rem;
         margin-right: 1.0rem;
-        padding: 0.3em 1em;
+        padding: $link-padding;
       }
       @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
         float: none !important;
@@ -553,13 +555,22 @@ code {
   background: #364549 !important;
 }
 
-.social-list {
-  .social-item {
+.home-list {
+  .home-item {
     i {
       font-size: 30px;
     }
+
+    &:first-child {
+        background-color: $link-color;
+        padding: $link-padding;
+        a {
+          color: $bg-color;
+        }
+    }
   }
 }
+
 
 .sns-shares {
   display: flex;

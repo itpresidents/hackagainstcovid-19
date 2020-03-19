@@ -16,6 +16,7 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "ITP"
+    home_main = "Hey ITP + IMA: let's do something about it."
     description = "Hack Against Covid-19"
     keywords = "blog,developer,personal"
     info = "Hack Against Covid-19"
@@ -50,6 +51,12 @@ disqusShortname = "yourdiscussshortname"
 
     langseparator = "|"
 
+[[params.home_links]]
+    name = "Participate"
+    background = "primary"
+    weight = 2
+    url = "https://twitter.com/naro143/"
+
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
@@ -82,10 +89,10 @@ disqusShortname = "yourdiscussshortname"
                 url = "schedule"
 
             [[languages.en.menu.main]]
-                name = "Example Projects"
+                name = "Inspiration"
                 weight = 3
                 url = "projects"
             [[languages.en.menu.main]]
-                name = "Get Involved!"
+                name = "Participate"
                 weight = 3
                 url = "contact"
