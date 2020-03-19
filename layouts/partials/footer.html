@@ -1,0 +1,7 @@
+<div class="fixed-bar">
+  <section class="container">
+    {{ with .Site.Params.fixedbarContent }}
+      <p id="privateTriggerText">{{.}}<a id="privateTrigger">Click!</a></p>
+    {{ end }}
+  </section>
+</div>

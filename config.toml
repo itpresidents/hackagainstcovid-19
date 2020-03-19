@@ -18,8 +18,8 @@ pygmentsUseClasses = true
     description = "Hack Against Covid-19"
     keywords = "hackathon,developer,covid-19,pandemic"
     avatarurl = "images/cv19-small.jpeg"
-    fixedbarContent = "Register to participate!→"
-    fixedbarContentAfter = "Thank You!"
+
+    fixedbarContent = "Checkout the updated schedule → "
 
     hideCredits = false
     hideCopyright = false

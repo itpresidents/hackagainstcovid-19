@@ -57,16 +57,19 @@
       <div class="content">
         {{ block "content" . }}{{ end }}
       </div>
-          </main>
+
+      {{ if or (.Site.Params.fixedbarContent)}}
+        {{ partial "footer.html" . }}
+      {{ end }}
+    </main>
 
   <script src="{{ "js/app.js" | absURL }}"></script>
-  {{ with .Site.Params.fixedbarContentAfter }}
+  {{ with .Site.Params.fixedbarContent }}
   <script>
   (function($) {
     $(function() {
       $('#privateTrigger').on('click', function() {
-        $('.private').slideToggle();
-        $('#privateTriggerText').text("{{ . }}");
+        window.open("/schedule/");
       });
     });
    })(jQuery);
