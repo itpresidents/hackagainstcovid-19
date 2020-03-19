@@ -307,8 +307,8 @@ img {
   margin-bottom: 3.2rem;
   article {
     header {
-      margin-top: 3.2rem;
-      margin-bottom: 3.2rem;
+      @media only screen and (min-device-width: 800px) {
+      }
       h1, h2 {
         margin: 0;
       }
@@ -566,6 +566,9 @@ code {
         padding: $link-padding;
         a {
           color: $bg-color;
+          &:hover {
+            text-decoration: none;
+          }
         }
     }
   }

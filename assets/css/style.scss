@@ -1,3 +1,4 @@
+@import "theme/colors.scss";
 @import "theme/theme.scss";
 
 main {
@@ -6,7 +7,20 @@ main {
 }
 
 .page {
-  width: 60%;
+
+  width: 90%;
+
+  background-color: $bg-color;
+  opacity: 0.8;
+  padding: 1.5em;
+  margin: 1.5em auto;
+
+  @media only screen and (min-device-width: 800px) {
+    width: 60%;
+    padding: 2em;
+
+    margin: 2em auto;
+  } 
 }
 
 .hero-title {
