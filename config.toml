@@ -1,5 +1,5 @@
 baseurl = "https://hackingagainstcovid19.netlify.com/"
-title = "Hacking Against Covid-19"
+title = "Hack Against Covid-19"
 
 theme = "coder-portfolio"
 
@@ -16,9 +16,9 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "ITP"
-    description = "Hacking Against Covid-19"
+    description = "Hack Against Covid-19"
     keywords = "blog,developer,personal"
-    info = "Hacking Against Covid-19"
+    info = "Hack Against Covid-19"
     avatarurl = "images/cv19-small.jpeg"
     footercontent = "Enter a text here."
     fixedbarContent = "Do you want to know me more private?→"
@@ -60,13 +60,13 @@ disqusShortname = "yourdiscussshortname"
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Hacking Against Covid-19"
+        title = "Hack Against Covid-19"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "Hacking Against Covid-19"
+            author = "Hack Against Covid-19"
             info = "@ ITP"
-            description = "Yusuke Ishimi's personal website"
+            description = "Hack Against Covid-19"
             keywords = "blog,developer,personal"
 
         [languages.en.menu] # It is possible to change the menu too.
