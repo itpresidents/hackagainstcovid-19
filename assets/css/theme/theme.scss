@@ -12,10 +12,11 @@ html {
 }
 
 body {
+  margin: 0;
   display: flex;
   color: $fg-color;
   background-color: $bg-color;
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Roboto', monospace;
   font-size: 1.6em;
   font-weight: 400;
   letter-spacing: 0.0625em;
@@ -27,7 +28,7 @@ body {
 }
 
 a {
-  font-weight: 700;
+  font-weight: 400;
   color: $darker-fg-color;
   text-decoration: none;
   &:focus,
@@ -204,9 +205,15 @@ img {
       a {
         margin-left: 1.0rem;
         margin-right: 1.0rem;
+        padding: 0.3em 1em;
       }
       @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
         float: none !important;
+      }
+      &:last-child{
+        a {
+          border: black 1px solid;
+        }
       }
     }
     @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
