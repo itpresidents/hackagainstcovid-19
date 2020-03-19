@@ -1,8 +1,8 @@
 @import "theme/theme.scss";
 
 main {
-    background: url(/images/HackAgainstCovid-19.png);
-    background-size: contain;
+    background: url(/images/HackAgainstCovid-19.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .page {
