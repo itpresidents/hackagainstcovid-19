@@ -17,7 +17,6 @@ pygmentsUseClasses = true
     home_main = "Hey ITP + IMA: let's do something about it."
     description = "Hack Against Covid-19"
     keywords = "hackathon,developer,covid-19,pandemic"
-    info = "A 3-Day ITP & IMA Hackathon"
     avatarurl = "images/cv19-small.jpeg"
     fixedbarContent = "Register to participate!→"
     fixedbarContentAfter = "Thank You!"
@@ -69,7 +68,7 @@ pygmentsUseClasses = true
         # You can configure the theme parameter for each language.
         [languages.en.params]
             author = "Hack Against Covid-19"
-            info = "A 3-Day ITP & IMA Hackathon"
+            info = "A 3-Day ITP & IMA Hackathon Starting this Fri 03/20"
             description = "Hack Against Covid-19"
             keywords = "blog,developer,personal"
 
