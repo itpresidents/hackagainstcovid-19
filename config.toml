@@ -1,4 +1,4 @@
-baseurl = "https://hackingagainstcovid19.netlify.com/"
+baseurl = "https://hackagainstcovid-19.org"
 title = "Hack Against Covid-19"
 
 theme = "coder-portfolio"
