@@ -7,17 +7,17 @@ description = "schedule"
 
 NOTE: All times US Eastern Time.
 
-![Schedule Overview](/images/schedule.png)
+![Schedule Overview](/images/schedule-v2.png)
 
 ## Detailed Schedule
 
 ### `Friday, March 20: Team Formation`
 
-**&nbsp;6:00 PM:** Welcome Kick Off
+**&nbsp;7:00 PM:** Welcome Kick Off
 
-**&nbsp;7:00 PM:** Lightning Pitches & Team Formation
+**&nbsp;8:00 PM:** Lightning Pitches & Team Formation
 
-**&nbsp;9:00 PM:** Virtual Friday Night Out (BYOB)
+**&nbsp;10:00 PM:** Virtual Friday Night Out (BYOB)
 
 ### `Saturday, March 21:`
 
@@ -25,7 +25,7 @@ NOTE: All times US Eastern Time.
 
 **&nbsp;7:00 PM:** Project Check-in
 
-**&nbsp;9:00 PM:** Virtual Saturday Night Out (BYOB)
+**&nbsp;10:00 PM:** Virtual Saturday Night Out (BYOB)
 
 ### `Sunday, March 22:`
 
