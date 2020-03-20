@@ -5,11 +5,13 @@ thumbnail = "images/tn.png"
 description = "schedule"
 +++
 
+NOTE: All times US Eastern Time.
+
 ![Schedule Overview](/images/schedule.png)
 
 ## Detailed Schedule
 
-### `Friday, March 20:`
+### `Friday, March 20: Team Formation`
 
 **&nbsp;6:00 PM:** Welcome Kick Off
 
